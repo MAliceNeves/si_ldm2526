@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+.search-box {
+    margin: 24px auto;
+    display: flex;
+    background: white;
+    padding: 8px;
+    border-radius: 40px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.search-box input {
+    border: none;
+    flex: 1;
+    padding: 4px 16px;
+    outline: none;
+}
+
+.search-box button {
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+main {
+    margin: 32px;
+}
+
+.cartao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: white;
+    padding: 0 24px 16px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.cartao-info {
+    flex: 1; /* left side takes all available space */
+}
+
+.cartao h3 {
+    color: black;
+    margin: 16px 0;
+}
+
+.cartao-details {
+    display: flex;
+    gap: 120px; /* space between columns */
+}
+
+.label {
+    color: #888;
+    font-size: 14px;
+}
+
+.cartao-details p {
+    margin: 4px 0 0;
+    font-size: 17px;
+}
+
+
+/* Book Table button */
+.book-btn {
+    background: #02021a;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;   /* remove underline */
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;   /* makes <a> behave like a button */
+}
+
+.book-btn:hover {
+    opacity: 0.85;
+}
