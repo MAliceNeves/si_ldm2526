@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 1px solid #eee;
+    background: #ffffff;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+}
+
+.nav-right .active-link {
+    font-weight: bold;
+}
+
+.user-badge {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.logout-icon {
+    text-decoration: none;
+    color: #111;
+}
+
+/* PAGE LAYOUT */
+.page {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* Back row */
+.back-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.back-arrow {
+    font-size: 18px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #111;
+}
+
+/* Title + add button */
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title-row h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.add-btn {
+    background: #02021a;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Restaurant card */
+.rest-card {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 22px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rest-left h3 {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+}
+
+.rest-details {
+    display: flex;
+    gap: 80px;
+    font-size: 14px;
+}
+
+.label {
+    display: block;
+    color: #9ca3af; /* light gray */
+    margin-bottom: 3px;
+}
+
+.rest-details p {
+    margin: 0;
+    color: #111;
+}
+
+/* Action buttons */
+.rest-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-btn {
+    border: 1px solid #eee;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}

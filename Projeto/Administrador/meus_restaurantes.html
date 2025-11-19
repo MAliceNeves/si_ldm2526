@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Meus_Restaurantes</title>
+    <title>EatEasy - My Restaurants</title>
+    <link rel="stylesheet" href="meus_restaurantes.css">
 </head>
 <body>
+
+<!-- NAV -->
+<header class="nav">
+    <div class="nav-esquerda">
+        <a href="../Geral/html/index.html">EatEasy</a>
+    </div>
+    <div class="nav-right">
+        <a href="#">Home</a>
+        <a href="#" class="active-link">My Restaurants</a>
+        <span class="user-badge">Nome Aqui</span>
+        <a href="#" class="login-btn">↪</a>
+    </div>
+</header>
+
+<!-- PAGE CONTENT -->
+<main class="page">
+
+    <!-- Back -->
+    <div class="back-row">
+        <span class="back-arrow">←</span>
+        <a href="#" class="back-link">Back</a>
+    </div>
+
+    <!-- Title + Add button -->
+    <div class="title-row">
+        <h2>My Restaurants</h2>
+        <a href="#" class="add-btn">+ Add Restaurant</a>
+    </div>
+
+    <!-- Restaurant card -->
+    <div class="rest-card">
+        <div class="rest-left">
+            <h3>Restaurante</h3>
+
+            <div class="rest-details">
+                <div>
+                    <span class="label">Location</span>
+                    <p>Local</p>
+                </div>
+                <div>
+                    <span class="label">Price</span>
+                    <p>50€</p>
+                </div>
+                <div>
+                    <span class="label">Type</span>
+                    <p>italiano</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rest-actions">
+            <button class="icon-btn">📅</button>
+            <button class="icon-btn">✏️</button>
+            <button class="icon-btn">🗑</button>
+        </div>
+    </div>
+
+</main>
 
 </body>
 </html>
